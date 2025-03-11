@@ -12,10 +12,15 @@
 .btn {
     background-color:#8E1616;
     color:#ffffff;
+    padding: 8px;
     margin-top:10px;
-    margin-left:600px;
-    
+    margin-left:600px; 
+    border-radius: 4px;   
 }
 .sub-link {
     color:#ffffff;
+    text-decoration: none;
+}
+.btn:hover{
+    font-weight: bold;
 }
