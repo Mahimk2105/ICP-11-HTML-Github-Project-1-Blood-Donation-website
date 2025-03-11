@@ -64,3 +64,11 @@ dark: #1D1616;
     transform: scale(1.1);
     text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
 }
+.back-page a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.back-page a:hover{
+    font-weight: bold;
+}

@@ -82,7 +82,8 @@ th{
 
 
 .btn-back{
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
     background-color:#8E1616;
     color:black;
     padding:10px 25px;
@@ -92,6 +93,7 @@ th{
     border-width: 5px;
     box-shadow: 1px 1px 2px 2px gray;
     border: 3px double whitesmoke;
+    text-decoration: none;
 } 
 .btn-back:hover {
     background-color: #8E1616;
@@ -176,7 +178,7 @@ th{
     text-align: center;
  }
 .home{
-    margin-left: 50px;
+        margin-left: 50px;
             background-color: #EEEEEE;
             color:black;
             padding:10px 10px;
@@ -186,7 +188,6 @@ th{
             border-width: 5px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
-
 .group{
     margin: auto;
     text-align: center;
