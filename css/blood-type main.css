@@ -11,13 +11,17 @@
      
 }
 .blood-img{
-    background: #EEEEEE;
-    border-radius:none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    height: 250px;
     width: 300px;
-
+    overflow: hidden;
+    box-shadow: 1px 1px 5px 1px #666666;        
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+}
+.blood-image:hover{
+    transition: 0.5s;
+    box-shadow: 1px 1px 8px 1px #181717;
+    box-sizing: 350px;
+    transform: scale(1.1);
 }
 .card {
     width: 300px;
